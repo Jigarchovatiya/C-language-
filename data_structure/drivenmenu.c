@@ -111,12 +111,44 @@ int main()
         {
             case 1:
                 printf("Enter Element:");
-                scanf("%d",&y);
+                scanf("%d",&x);
                 insert(x);
                 break;
 
-            
+            case 2:
+                delete();
+                break;
+
+            case 3:
+                printf("Enter First Element:");
+                scanf("%d",&y);
+                firstinsert(y);
+                break;
+
+            case 4:
+                firstdelete();
+                break;
+
+            case 5:
+                printf("Enter Mid Element:");
+                scanf("%d",&y);
+                midinsert(y);
+                break;
+
+            case 6:
+                middelete();
+                break;
+
+            case 7:
+                print();
+                break;
+
+            case 0:
+                break;
+
+            default:
+                printf("Wrong Choice...");
+                break;
         }
     } while (ch!=0);
-    
 }
