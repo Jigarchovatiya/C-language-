@@ -1,0 +1,31 @@
+void main()
+{
+ 
+  int numOne = 50;
+  int numTwo = 30;
+  
+  //Arithmatic operations
+  
+  //Addition
+  print("50 + 30 = ${numone + numtwo}");
+  
+  //substraction
+  print("50 - 30 = ${numone - numtwo}");
+  
+  //multiplication
+  print("50 * 30 = ${numone * numtwo}");
+  
+  //division
+  print("50 / 30 = ${numone / numtwo}");
+  
+  //moduls
+  print("50 % 30 = ${numone % numtwo}");
+  
+}
+
+Output:
+50 + 30 = 80
+50 - 30 = 20
+50 * 30 = 1500
+50 / 30 = 1.6666666666666667
+50 % 30 = 20
